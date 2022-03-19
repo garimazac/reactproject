@@ -1,7 +1,12 @@
+/**
+
+* @jest-environment node
+
+*/
 import axios from "axios";
 
-const TUITS_API = "https://cs5500-01-sp22.herokuapp.com/api/tuits";
-const USERS_API = "https://cs5500-01-sp22.herokuapp.com/api/users";
+const TUITS_API = "https://cs5500a3node.herokuapp.com/api/tuits";
+const USERS_API = "https://cs5500a3node.herokuapp.com/api/users";
 
 export const findAllTuits = () =>
     axios.get(TUITS_API)

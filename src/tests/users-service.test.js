@@ -4,10 +4,11 @@ import {
   findUserById
 } from "../services/users-service";
 
+
 describe('createUser', () => {
   // sample user to insert
   const ripley = {
-    username: 'ellenripley',
+    username: 'garima',
     password: 'lv426',
     email: 'ellenripley@aliens.com'
   };
